@@ -15,7 +15,7 @@ dayjs.extend(relativeTime)
 
 import ReactGA from 'react-ga'
 
-ReactGA.initialize('UA-26528518-5')
+ReactGA.initialize('UA-26518-5')
 
 const fetcher = url => fetch(url).then(res => res.json())
 
