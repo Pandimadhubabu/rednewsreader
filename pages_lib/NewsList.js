@@ -7,10 +7,10 @@ import themes from './themes'
 import Item from './Item'
 
 import dayjs from 'dayjs'
-import 'dayjs/locale/ru'
+import 'dayjs/locale/in'
 import relativeTime from 'dayjs/plugin/relativeTime'
 
-dayjs.locale('ru')
+dayjs.locale('in')
 dayjs.extend(relativeTime)
 
 import ReactGA from 'react-ga'
