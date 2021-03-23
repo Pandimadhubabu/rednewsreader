@@ -3,7 +3,7 @@ import { parse } from 'node-html-parser'
 export default async function handler(req, res) {
   const { theme } = req.query
   
-  const url = 'https://news.google.com/news/rss/headlines/section/topic/'+theme.toUpperCase()+'.ru_ru/?ned=ru_ru&hl=ru'
+  const url = 'https://news.google.com/news/rss/headlines/section/topic/'+theme.toUpperCase()+'/?hl=en-IN'
   const r = await fetch(url)
   const html = await r.text()
 
