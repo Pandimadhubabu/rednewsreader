@@ -5,7 +5,7 @@ export async function GET(request) {
   const { searchParams } = new URL(request.url)
   const theme = searchParams.get('theme')
   
-  const url = 'https://news.google.com/news/rss/headlines/section/topic/'+theme.toUpperCase()+'.ru_ru/?ned=ru_ru&hl=ru'
+  const url = 'https://news.google.com/news/rss/headlines/section/topic/'+theme.toUpperCase()+'/?hl=IN'
   const r = await fetch(url)
   const html = await r.text()
 
