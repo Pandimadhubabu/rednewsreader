@@ -16,7 +16,7 @@ export default function Loading() {
                 damping: 20
             }}
         >
-            <div className={styles.footer}>Загрузка...</div>
+            <div className={styles.footer}>Loading..</div>
         </motion.div>
     )
 }
