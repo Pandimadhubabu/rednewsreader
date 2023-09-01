@@ -10,8 +10,8 @@ export default function Error({ error, reset }) {
 
     return (
         <>
-            <div className={styles.footer}>Ошибка...</div>
-            <div className={styles.footer} onClick={() => reset()}>Обновить</div>
+            <div className={styles.footer}>Error...</div>
+            <div className={styles.footer} onClick={() => reset()}>Refresh</div>
         </>
     )
 }
